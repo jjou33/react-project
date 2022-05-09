@@ -20,6 +20,12 @@ React 의 장점
 
 기존 Javascript 로 작성될 경우 기능마다 새로운 로직을 작성해야 하는 경우가 많다.
 
+3. 선택적 렌더링 가능
+
+기존 Javascript 의 경우 모든 HTML 소스를 그려야 하는 반면, 컴포넌트 설계 혹은 재사용 및 React 의 useEffect 및 useRef 를 통해서
+
+원하는 컴포넌트만 선택적으로 렌더링 가능하다.
+
 */
 function App() {
    const [todoList, setTodoList] = useState([]);
